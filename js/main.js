@@ -1,3 +1,3 @@
 let myName = "Godsplan";
 
-console.log(myName.charAt(Math.random() * 10 +1))
+console.log(myName.charAt(Math.floor(Math.random() * myName.length)))
