@@ -23,7 +23,7 @@ if (condition) {
 */
 
 
-let soup = "Chicken noodle soup"
+/* let soup = "Chicken noodle soup"
 let reply;
 
 if (soup) {
@@ -32,4 +32,26 @@ if (soup) {
     reply = `Sorry, we're out of ${soup}`;
 }
 
-console.log(reply);
+console.log(reply); */
+
+
+
+
+//SWITCH STATEMENTS
+
+/* switch (expression OR value) {
+
+    case choice:
+        //run this set of code
+        break;
+
+    case choice2:
+        //run this different code
+        break;
+
+        //add as many cases as needed
+    
+    default:
+        //run this if no case matches
+        //no need to break here
+} */
