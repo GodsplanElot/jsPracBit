@@ -76,5 +76,35 @@ console.log(reply); */
 //User Input
 //alert('just prints out message to the consloe, "doesnt take any input "')
 //confirm("ok === true\ncancel === False"); ** this takes in a value of true or false and it can be received or captured and stored in a variable**
-let myBoolean = confirm("Okay = True \ncancel = false")
-console.log(myBoolean)
+//let myBoolean = confirm("Okay = True \ncancel = false")
+//console.log(myBoolean)
+
+//****** now there is one more input method to get a string or a number and store it in a variable *****
+
+//let name = prompt("please enter your name.");
+//console.log(name);
+
+//*** Now what if the user clicks on cancel this will return a null value back to us and we can not do anything to null value so we have to redirect a meassge like an if and else statement to catch a string response that can be stored or assigned to a variable in a variable this method or operator is called the "nullish coalescing operator" works it is represented by two "??" right after the varible to be printed out ***/
+
+//let name = prompt("please enter your name.");
+//console.log(name ?? "you didn't enter your name");
+
+//**** Now what if the user doenst input any data, we are not prepared for that, here's how we fix ****/
+
+//let name = prompt("please enter your name.");
+//if (name) {
+  //  console.log(name);
+//} else {
+  //  console.log("you didn't enter your name.")
+//}
+
+//***** You can also check for the amount of white space the user will leave in the input from the promt command this will ensure your database will not be overlaged white spaces and slowed down, how to do it ******/
+
+let name = prompt("please enter your name.")
+if (name) {
+    console.log(name.length);
+    console.log(name.trim().length);
+    console.log(name.trim());
+} else {
+    console.log("you didn't enter your name")
+}
