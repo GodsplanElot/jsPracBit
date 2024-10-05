@@ -100,11 +100,11 @@ console.log(reply); */
 
 //***** You can also check for the amount of white space the user will leave in the input from the promt command this will ensure your database will not be overlaged white spaces and slowed down, how to do it ******/
 
-let name = prompt("please enter your name.")
-if (name) {
-    console.log(name.length);
-    console.log(name.trim().length);
-    console.log(name.trim());
-} else {
-    console.log("you didn't enter your name")
-}
+//let name = prompt("please enter your name.")
+//if (name) {
+  //  console.log(name.length);
+    //console.log(name.trim().length);
+    //console.log(name.trim());
+//} else {
+  //  console.log("you didn't enter your name")
+//}
