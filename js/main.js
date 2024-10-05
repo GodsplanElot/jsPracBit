@@ -55,3 +55,26 @@ console.log(reply); */
         //run this if no case matches
         //no need to break here
 } */
+
+
+// Conditionals: Ternary operator
+
+// Basic Syntax structure of a tenary operator
+
+// condition ? ifTrue : ifFalse;
+
+//How to chain ternary operator
+
+    //condition:ifTrue:condition:ifTrue:condition:ifTrue:condition:condition:condition
+
+
+
+
+
+//******************** USER INPUT  *****************************
+
+//User Input
+//alert('just prints out message to the consloe, "doesnt take any input "')
+//confirm("ok === true\ncancel === False"); ** this takes in a value of true or false and it can be received or captured and stored in a variable**
+let myBoolean = confirm("Okay = True \ncancel = false")
+console.log(myBoolean)
