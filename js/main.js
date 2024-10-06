@@ -108,3 +108,16 @@ console.log(reply); */
 //} else {
   //  console.log("you didn't enter your name")
 //}
+
+
+
+//**************** LOOPS *********/
+
+//Types of loops in Java Script
+
+//****** WHILE LOOPS **********
+//Syntax
+
+while(condition is true) {
+    //start the loop
+}
