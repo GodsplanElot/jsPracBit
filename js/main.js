@@ -195,3 +195,30 @@ console.log(reply); */
 //Now, when working with your variables we majorly use "let ", "const", and "var";
 //but there is an issue with "var", now with var, even if you assign the variable used previously as long as you use the var for the assignement, it will not give off and error
 
+//global scope
+//var x = 1;
+//let y = 2;
+//const z = 3;
+
+//local scope
+//In the local scope we can still declare variables already used in the previoulsy but this is done inside the block code
+//{
+  //let y = 4;
+//}
+
+// local scope
+/* function myFunc() {
+  const z = 5;
+} */
+
+//NOTE
+//If you try to log out the local scope or the the function loacl scope form out side the block it will return an error, unless you log it out form withn the block of code
+//e.g
+//{
+ // let y = 4
+  //console.log (y)
+  //this will return the value without an error 
+//}
+
+//console.log(y)
+//this will return an error 
