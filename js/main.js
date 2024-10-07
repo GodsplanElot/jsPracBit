@@ -118,6 +118,18 @@ console.log(reply); */
 //****** WHILE LOOPS **********
 //Syntax
 
-while(condition is true) {
+//while(condition is true) {
     //start the loop
-}
+//}
+
+//*** So what the loops bsiclly does it that it runs it self infintly untill the condition is specified and if not the code will run forever ***/
+
+
+//*** DO WHILE LOOPS ***/
+//syntax
+
+//do {
+    //run this as long as
+//} while (//this is satisfied)
+
+//but at least he runs the outcome  before executing the code once before making sure the logic runs well but since its real not met it will run till it true
