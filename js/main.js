@@ -133,3 +133,16 @@ console.log(reply); */
 //} while (//this is satisfied)
 
 //but at least he runs the outcome  before executing the code once before making sure the logic runs well but since its real not met it will run till it true
+
+//*** FOR LOOPS ***/
+//Syntax
+
+//for (condition){
+    // run this code if the condition is met
+//}
+
+//you can declare the variable in the same line as the condition and also increment it in the same parenthesis as the condition or you can choose to put it before the loop or outside the loop.
+
+for (let i = 0; i <= 10; 1++ ) {
+    console.log(i);
+}
