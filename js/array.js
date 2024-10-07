@@ -1,0 +1,4 @@
+//ARRAYS
+//Syntax
+const myArray = [];
+
