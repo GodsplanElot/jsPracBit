@@ -141,8 +141,28 @@ console.log(reply); */
     // run this code if the condition is met
 //}
 
-//you can declare the variable in the same line as the condition and also increment it in the same parenthesis as the condition or you can choose to put it before the loop or outside the loop.
+//you can declare the variable in the same line as the condition and also increment it in the same parenthesis as the condition or you can choose to put it before the loop or outside the loop, below.
 
-for (let i = 0; i <= 10; 1++ ) {
-    console.log(i);
+//for (let i = 0; i <= 10; 1++ ) {
+  //  console.log(i);
+//}
+
+
+
+//************* FUNCTIONS *************
+//Methods are bulit in functions
+//e.g of functions are
+//** .charAt Mathrandom() etc*/
+
+//syntax
+// function functionName() {
+    //code will run
+//}
+
+//This is a basic way of declaring a function we can also pass in arguments to our function parenthesis which could be used to run the code in the function code block. eg;
+
+function sum() {
+    return 2 + 2;
 }
+
+console.log(sum())
