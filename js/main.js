@@ -159,10 +159,39 @@ console.log(reply); */
     //code will run
 //}
 
-//This is a basic way of declaring a function we can also pass in arguments to our function parenthesis which could be used to run the code in the function code block. eg;
+//This is a basic way of declaring a function we can also pass in parameters to our function parenthesis which could be used to run the code in the function code block. eg;
 
-function sum() {
-    return 2 + 2;
-}
+//function sum(num1, num2) {
+  //  return num1 + num2;
+//}
 
-console.log(sum())
+//console.log(sum(4, 8))
+
+//This will take the values inserted in the sum function parenthesis. There are other ways a function can be declared which are
+
+//ANONYMOUS FUNCTIONS
+//This function stores the function in a variable
+//const getUserNameFromEmail = function (email) {
+  //  return email.slice(0, email.indexOf("@"));
+//}
+
+//console.log(getUserNameFromEmail("user@github.com"))
+
+//ARROW FUNCTIONS
+//const getUserNameFromEmail = (email) => {
+  //  return email.slice(0, email.indexOf("@"));
+//}
+
+//console.log(getUserNameFromEmail("john@davesdomain.com"));
+
+
+
+
+
+//SCOPE
+
+//VAR, LET, CONST differences
+
+//Now, when working with your variables we majorly use "let ", "const", and "var";
+//but there is an issue with "var", now with var, even if you assign the variable used previously as long as you use the var for the assignement, it will not give off and error
+
