@@ -28,3 +28,13 @@
 //How the function is used
 //.myVar(paramIFany)
 
+//WE CAN ALSO USE FUNCTIONS TO CREATE OBJECTS, THIS IS KNOWN AS THE FACTORY FUNCTION AND THE SYNTAX FOLLOWS BELOW.
+
+//Factory Function
+function pizzaFactory(pizzaSize) {
+    const crust = "original";
+    const size = pizzaFactory;
+    return {
+        bake: () => console.log(`Baking a ${size} crust pizza.`)
+    }
+}
