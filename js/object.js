@@ -1,0 +1,1 @@
+//This is the simple syntax of object
