@@ -21,3 +21,7 @@ const anotherObj = {
 }
 
 //objects can store even anothr object inside it and it is shown above, this is how the object key value pair are accessed and sent to the console.
+
+console.log(anotherObj.beverage.morning)
+
+//This method is called object chaining
