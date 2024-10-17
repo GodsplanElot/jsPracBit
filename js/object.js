@@ -49,17 +49,17 @@ console.log(myObj); */
 
 //MAKING A CAR OBJECT
 
-const vehicle = {
+/* const vehicle = {
     wheels: 4,
     engine: function () {
         return "vrrooom!";
     }
-}
+} */
 
 //Now we have created a car object, but we could already do that, what if we wanted to create another car object, we have another and more easier way to do this, which is called "inheritance", it is used by passing in the already made object into the the parameter of declared variable like so below, this will pass on all the key value pair to the new object which will inherit all its value and you can add more key value pair to the recently created object lik so in line 62
 
-const truck = Object.create(vehicle)
-truck.doors = 2;
+/* const truck = Object.create(vehicle)
+truck.doors = 2; */
 
 // Like so we have created the key door and the value of door, this whole process is called inheritance
 
