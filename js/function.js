@@ -31,7 +31,7 @@
 //WE CAN ALSO USE FUNCTIONS TO CREATE OBJECTS, THIS IS KNOWN AS THE FACTORY FUNCTION AND THE SYNTAX FOLLOWS BELOW.
 
 //Factory Function
-function pizzaFactory(pizzaSize) {
+/* function pizzaFactory(pizzaSize) {
     const crust = "original";
     const size = pizzaSize;
     return {
@@ -40,4 +40,4 @@ function pizzaFactory(pizzaSize) {
 }
 
 const myPizza = pizzaFactory("small");
-myPizza.bake();
+myPizza.bake(); */
