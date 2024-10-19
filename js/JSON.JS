@@ -5,6 +5,8 @@ JSON is used to send and recieve data
 
 //How JSON works, e.g.
 
+
+//This is a typical Javascript Object
 const myObj = {
     name: "Elot",
     hobbies: ["eat", "code"],
@@ -12,3 +14,12 @@ const myObj = {
         console.log("Hello!")
     }
 }
+
+console.log (myObj.name)
+
+//It works extacly how an object in javascript will work, now how do we parse this to json
+
+//In other to do that we are going to store our javascript object in a const variable like so below.
+
+const sendJSON = JSON.stringify(myObj)
+console.log(sendJSON)
