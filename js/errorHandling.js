@@ -9,4 +9,14 @@
 2: Syntax Error
     This wil stop your code completely form excuting
 
+2:Type Error.
+
 */
+
+/*
+===============Try Catch Block================
+try {
+
+} catch{err }
+
+*/ 
