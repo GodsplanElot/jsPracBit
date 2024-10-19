@@ -23,3 +23,10 @@ console.log (myObj.name)
 
 const sendJSON = JSON.stringify(myObj)
 console.log(sendJSON)
+
+// You can also convert it back to an object by using a different method, you will need to store it in a variable, E.g below.
+
+const recieveJSON = JSON.parse(sendJSON)
+
+console.log(recieveJSON)
+
