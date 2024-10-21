@@ -18,5 +18,20 @@ const h2 = div.querySelector("h2");
 
 //The code above is selecting the h2 element, we first selects the div that the h2 element is located and store it to a variable, then we chain the variable to another queryselector and store the result in another variable. we then create an eventg listener for the click event
 
-h2.addEventListener("click", doSomething, false);
+/* h2.addEventListener("click", doSomething, false); */
 
+//you can also declare the function inside the event listener so that when ever the event is clicked the function within it is executed, e.g below.
+
+/* h2.addEventListener("click", (event) => {
+    console.log(event.target);
+}); */
+
+//the line of code above will listen for the event "click" then it will log what html element is stored in the target that is clicked. We can do much more, like we can change the text of the event target and more
+
+document.addEventListener("readystatechange", (event) => {
+    if (event.target.readyState === "complete") {
+        console.log("readyState: complete");
+    }
+})
+
+//The line of code above is an example of what we spoke earlier, which was a way to detect if your DOM has loaded fully, this code uses an event listener to target the DOM and a function to log "readyState: complete" if the DOM has loaded properly.
