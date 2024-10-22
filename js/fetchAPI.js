@@ -45,7 +45,30 @@ const myPromise = new promise((resolve, reject) => {
     }
 });
 
-Now as you can observe the syntax of a promise, you can see that a variable is declared using const to catch the pormise which is just an object that takes in two parameters "resolve" & "reject" which are 2 of the three states in a promise, which is also used as a parameter of a nameless function that holds an if statement 
+Now as you can observe the syntax of a promise, you can see that a variable is declared using const to catch the pormise which is just an object that takes in two parameters "resolve" & "reject" which are 2 of the three states in a promise, which is also used as a parameter of a nameless function that holds an if statement that carries out either of two posibilities which are "resolve" or "reject" respectively|**            **| But promises also had it errors and it could be fixed by chaining them, this methond brought about "Thenables".
+
+//Thenables
+
+SYNTAX
+
+myPromise.then(value => {
+    //doing something
+    return something done
+})
+.then(newValue => {
+    //doing more stuff    
+})
+.catch(err => {
+    //do final stuff
+    console.error(err);
+})
+
+The synatx is the variable created earlier since Thenables are like a fix to the promises all you have to do is take the variable and chain it to a ".then()" object that inside the object a function is made that can do stuff and return it to the variable. If there is an erro you can catch it with the ".catch" at the very end and you acn store an anonymous function as a argument withn its parameters. If an error occurs within our string or even with the mypromise variable, the code will run and the ".catch()" will log it to the console
+
+
+// Async | Await
+
+
 */
 
 
