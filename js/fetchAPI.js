@@ -66,7 +66,28 @@ myPromise.then(value => {
 The synatx is the variable created earlier since Thenables are like a fix to the promises all you have to do is take the variable and chain it to a ".then()" object that inside the object a function is made that can do stuff and return it to the variable. If there is an erro you can catch it with the ".catch" at the very end and you acn store an anonymous function as a argument withn its parameters. If an error occurs within our string or even with the mypromise variable, the code will run and the ".catch()" will log it to the console
 
 
+what happens when you chain thenables, this could also get out of hand thats why we currently use Async and Await
+
+
 // Async | Await
+
+SYNTAX
+
+const myUsers = {
+    //object
+}
+
+async function myCoolFunction() {
+
+}
+
+**arrow function
+
+const myCoolFunction = async () => {
+    const response = await fetch("API url")    
+    const jsonUserData = await response.json();
+    return json 
+}
 
 
 */
