@@ -86,7 +86,7 @@ async function myCoolFunction() {
 const myCoolFunction = async () => {
     const response = await fetch("API url")    
     const jsonUserData = await response.json();
-    return json 
+    return jsonUserData;
 }
 
 
