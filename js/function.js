@@ -21,7 +21,7 @@
 //******************** The arrow Function
 
 /* const myvar = (params) => {
-    // return function logic⚡
+    // return function logic⚡⚡
 } */
 
 
